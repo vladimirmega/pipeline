@@ -1,0 +1,31 @@
+[0m18:12:17.528579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6933ae660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc69382b4a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc692f1b9e0>]}
+
+
+============================== 18:12:17.531467 | 8eb6719f-e458-4b4c-9d91-d8fb166293b9 ==============================
+[0m18:12:17.531467 [info ] [MainThread]: Running with dbt=1.8.6
+[0m18:12:17.532027 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vladimir/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init bendas_dbt', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:12:17.540190 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/vladimir/.dbt')}
+[0m18:12:17.540611 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m18:12:17.541943 [debug] [MainThread]: Starter project path: /home/vladimir/Estudos/pipeline/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m18:12:17.544894 [info ] [MainThread]: 
+Your new dbt project "bendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:12:17.545368 [info ] [MainThread]: Setting up your profile.
+[0m18:15:00.132334 [info ] [MainThread]: Profile bendas_dbt written to /home/vladimir/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:15:00.133781 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 162.65602, "process_user_time": 1.316293, "process_kernel_time": 0.080147, "process_mem_max_rss": "92280", "process_in_blocks": "7712", "process_out_blocks": "304"}
+[0m18:15:00.134354 [debug] [MainThread]: Command `dbt init` succeeded at 18:15:00.134253 after 162.66 seconds
+[0m18:15:00.134792 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6933ae660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc693295520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc692e41c70>]}
+[0m18:15:00.135191 [debug] [MainThread]: Flushing usage events

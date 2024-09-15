@@ -9,3 +9,17 @@ $ source .venv/bin/activate
 $ pip install streamlit
 $ pip install pydantic
 $ pip install pydantic[email]
+$ pip install python-dotenv
+$ pip freeze > requirements.txt
+
+
+# Documentação
+$ pip install mkdocs mkdocs-material mkdocstrings mkdocstrings-python
+$ mkdocs new .
+$ mkdocs serve
+$ mkdocs build
+$ mkdocs gh-deploy
+
+
+# Banco de dados
+https://render.com/
