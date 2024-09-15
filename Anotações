@@ -1,0 +1,11 @@
+
+
+Pipeline até a IA
+
+# Preprarando ambiente
+$ pyenv local 3.12.1
+$ python -m venv .venv
+$ source .venv/bin/activate
+$ pip install streamlit
+$ pip install pydantic
+$ pip install pydantic[email]
